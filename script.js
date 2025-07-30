@@ -27,9 +27,9 @@ let aluno1 = {
   materiasFavoritas: ["Filsofia","Programação","História"]
 }
 
-console.log(aluno1.nome);
-console.log(aluno1.idade)
-console.log(aluno1.anoLetivo);
+//console.log(aluno1.nome);
+//console.log(aluno1.idade)
+//console.log(aluno1.anoLetivo);
 console.log(aluno1.materiasFavoritas[1]);
 
 
