@@ -27,11 +27,11 @@ let aluno1 = {
   materiasFavoritas: ["Filsofia","Programação","História"]
 }
 
-//console.log(aluno1.nome);
-//console.log(aluno1.idade)
-//console.log(aluno1.anoLetivo);
+console.log(aluno1.nome);
+console.log(aluno1.idade)
+console.log(aluno1.anoLetivo);
 console.log(aluno1.materiasFavoritas[1]);
 
 
 const objeto = document.querySelector("#aluno");
-objeto.textContent = aluno1.nome;
+objeto.textContent = aluno1.materiasFavoritas[0];
